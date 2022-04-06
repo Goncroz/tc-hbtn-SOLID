@@ -1,24 +1,26 @@
 
-
 public class Car extends Vehicle implements IVehicleCar {
 	
-	private int seat;
+	private int seats;
 
-	public Car(String color, String year, double engine) {
+	public Car(String color, String year, double engine, int seats) {
 		super(color, year, engine);
-		// TODO Auto-generated constructor stub
+		this.seats = seats;
+		configureVehicle(color, year, engine, seats);
+		
 	}
 
 	@Override
 	public void configureVehicle(String color, String year, double engine, int seats) {
-		// TODO Auto-generated method stub
+		
+		System.out.println("Criando um carro com Interface: " + color + " " + engine);
+		super.startVehicle();
 
 	}
 
 	@Override
 	public void startVehicle() {
-		// TODO Auto-generated method stub
-
+		
 	}
 
 }

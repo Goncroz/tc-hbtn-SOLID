@@ -11,18 +11,8 @@ public class Vehicle {
         this.engine = engine;
     }
 
-    void car(){
-        System.out.println("Criando um carro: "+ color + " ano: " + year+ " motor: "+ engine + " com " +  " assentos");
-        startVehicle();
-    }
-
-    void motorcycle(){
-        System.out.println("Criando uma moto: "+ year + " com " + engine + " cilindradas");
-        startVehicle();
-    }
-
     void startVehicle(){
-        System.out.println("Ligando os motores");
+        System.out.println("Ligando os motores com Interface");
     }
 
 }
