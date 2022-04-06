@@ -1,4 +1,4 @@
-package vehicles;
+
 
 public class Vehicle {
 	private String color;
