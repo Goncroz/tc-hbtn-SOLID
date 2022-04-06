@@ -9,7 +9,7 @@ public class Main {
 		typeVehicle = TypeVehicle.CAR;
 
         if (typeVehicle == TypeVehicle.CAR){
-            Vehicle vehicle = new Vehicle("white", "2022", 2.0);
+            Vehicle vehicle = new Vehicle("Azul", "2022", 2.6);
             vehicle.car();
         } else if (typeVehicle == TypeVehicle.MOTORCYCLE){
             Vehicle vehicle = new Vehicle("white", "2010", 250);
