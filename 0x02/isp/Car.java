@@ -1,6 +1,6 @@
+package vehicles2;
 
-
-public class Vehicle implements IVehicle, IVehicleCar, IMotorVehicle {
+public class Car implements IVehicle, IVehicleCar, IMotorVehicle {
 
 	@Override
 	public void configureCar(String color, String year, double engine, int seats) {

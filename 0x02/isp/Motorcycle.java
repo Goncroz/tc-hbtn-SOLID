@@ -1,4 +1,4 @@
-
+package vehicles2;
 
 public class Motorcycle implements IVehicle, IVehicleMotorcycle, IMotorVehicle  {
 

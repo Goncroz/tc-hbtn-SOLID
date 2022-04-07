@@ -1,4 +1,4 @@
-
+package vehicles2;
 
 public class Bicycle implements IVehicle {
 
